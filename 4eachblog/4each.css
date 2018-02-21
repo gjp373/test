@@ -41,17 +41,17 @@ main{
 main.left{
       width:700px;
       float:left;
+     
     
 }
 .main-box1{
     margin-top:40px;
 }
 
+.abc img{
+    width:550px;
+    height:400px;}
 
-.main-logo{
-      width:560px;
-      height:380px;
-}
 
 .left p{
     clear:left;
@@ -67,7 +67,7 @@ main.left{
   width:560px;
   height:250px;
   background-color:lightgray;
-  margin-top:450px;   
+  margin-top:70px;; 
   margin-bottom:30px;
 }
 
@@ -98,7 +98,7 @@ td img{
 .right{
   position:absolute;
   float:left;
-  margin-top:-130px;
+  margin-top:-600px;
   margin-left:620px; font-size:12px; 
 }
 h3{
@@ -114,10 +114,12 @@ fooder{
   width:100%;
   height:60px;
   left:0px;
-  bottom:0px;
-  background:color:black;
+  bottom:-400px;
+  background-color:black;
   color:white;
   text-align:center;
+  line-height:60px;
+  font-size:13px;
 }
 
 
