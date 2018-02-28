@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
  <title>お問い合わせフォームを作る</title>
   <link rel="stylesheet" type="text/css"
-herf="style4.css">
+href="style4.css">
 </head>
 
 
@@ -14,41 +14,41 @@ herf="style4.css">
   
   <div class="confirm">
    <p>お問い合わせ内容はこちらでよろしいでしょうか？
-   <br>よろしければ「送信する」ボタンを押してください。
+   <br>よろしければ「登録する」ボタンを押してください。
    </p>
    <p>名前
      <br>
-       <?php echo $_post['name'];?>
+       <?php echo $_POST['name'];?>
    </p>
       
    <p>メールアドレス
     <br>
-      <?php echo $_post['mail'];?>
+      <?php echo $_POST['mail']; ?>
    </p>
       
    <p>年齢
     <br>
-     <?php echo $_post['age'];?>
+     <?php echo $_POST['age']; ?>
    </p>
       
    <p>コメント
     <br>
-    <?php echo $_post['comments'];?>
+    <?php echo $_POST['comments']; ?>
    </p>  
       
-   <from action="index3.html">
+   <form action="index3.html">
      <input type="submit" class="button1" value="戻って修正する"/>    
-   </from>  
+   </form>  
       
-   <from action="insert.php" methot="post">
+   <form action="insert.php" method="post">
      <input type="submit" class="button2" value="登録する"/>
-     <input type="hidden" value="<?php echo $_post['name'];?>" name="name">
-     <input type="hidden" value="<?php echo $_post['mail'];?>" name="mail">
-     <input type="hidden" value="<?php echo $_post['age'];?>" name="age">
-     <input type="hidden" value="<?php echo $_post['comments'];?>" name="comments">
-   </from>
+     <input type="hidden" value="<?php echo $_POST['name'];?>" name="name">
+     <input type="hidden" value="<?php echo $_POST['mail'];?>" name="mail">
+     <input type="hidden" value="<?php echo $_POST['age'];?>" name="age">
+     <input type="hidden" value="<?php echo $_POST['comments'];?>" name="comments">
+   </form>
       
-    </div>  
+   </div>  
     
 </body>
 </html>
