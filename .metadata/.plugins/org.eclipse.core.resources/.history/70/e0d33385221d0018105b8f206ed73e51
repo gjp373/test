@@ -1,0 +1,17 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+
+String[][]contry=new String[3][2];
+
+contry[0][0]="日本";
+contry[0][1]="タイ";
+contry[1][0]="アメリカ";
+contry[1][1]="ブラジル";
+contry[2][0]="フランス";
+contry[2][1]="ロシア";
+
+System.out.println(contry[1][0]);
+	}
+}
