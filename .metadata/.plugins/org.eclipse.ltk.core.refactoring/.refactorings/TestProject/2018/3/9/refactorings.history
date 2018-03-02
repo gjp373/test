@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;HelloWorld.java&apos; to &apos;TestProject/src/Hello&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;TestProject&apos;&#x0D;&#x0A;- 宛先要素: &apos;TestProject/src/Hello&apos;&#x0D;&#x0A;- オリジナル要素: &apos;HelloWorld.java&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="/src&lt;Hello" element1="/src&lt;{HelloWorld.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1519964361187" units="1" version="1.0"/>
-</session>
