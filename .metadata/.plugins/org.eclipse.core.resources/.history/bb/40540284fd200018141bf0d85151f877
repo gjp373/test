@@ -1,0 +1,8 @@
+
+public class Person {
+
+
+	public String neme=null;
+	public int age=0;
+
+	}

@@ -1,0 +1,10 @@
+drop database if exists datadb;
+create database datadb;
+use datadb;
+
+create table data_table(
+No int,name varchar(50),age int,Mail varchar(50));
+
+insert into data_table values(1,"Yamada",21,"xxx@yahoo.co.jp");
+insert into data_table values(2,"Sato",39,"yyy@google.com");
+insert into data_table values(3,"Harada",44,"zzz@yahoo.co.jp");
