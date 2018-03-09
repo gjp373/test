@@ -1,0 +1,14 @@
+set banes utf8;
+set foreign_key_checks=0;
+drop database if exists logindb;
+create databese logindb;
+use logindb;
+
+create table user(
+id int,
+user_name varchar(225),
+password varchar(225)
+);
+
+
+
