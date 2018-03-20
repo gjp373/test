@@ -1,0 +1,13 @@
+127.0.0.1 - - [20/Mar/2018:16:24:06 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:24:10 +0900] "GET /WebProj3/ HTTP/1.1" 200 796
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:24:14 +0900] "POST /WebProj3/HelloStrutsAction.action;jsessionid=B3E80CB15B623E8E0FCF8D78111F068D HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:24:20 +0900] "POST /WebProj3/WelcomeAction.action;jsessionid=B3E80CB15B623E8E0FCF8D78111F068D HTTP/1.1" 200 873
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:24:25 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 9406
+127.0.0.1 - - [20/Mar/2018:16:27:32 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:27:34 +0900] "GET /WebProj3/ HTTP/1.1" 200 708
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:27:39 +0900] "POST /WebProj3/HelloStrutsAction.action HTTP/1.1" 200 214
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:27:43 +0900] "POST /WebProj3/WelcomeAction.action HTTP/1.1" 200 873
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:27:50 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:05 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:20 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:44 +0900] "GET /WebProj3/login.jsp HTTP/1.1" 200 155
