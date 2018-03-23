@@ -11,3 +11,7 @@
 0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:05 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 218
 0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:20 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 218
 0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:28:44 +0900] "GET /WebProj3/login.jsp HTTP/1.1" 200 155
+127.0.0.1 - - [20/Mar/2018:16:30:49 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:30:51 +0900] "GET /WebProj3/ HTTP/1.1" 200 708
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:30:55 +0900] "POST /WebProj3/WelcomeAction.action HTTP/1.1" 200 873
+0:0:0:0:0:0:0:1 - - [20/Mar/2018:16:31:03 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 159
