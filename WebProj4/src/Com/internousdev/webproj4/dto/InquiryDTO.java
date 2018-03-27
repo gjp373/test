@@ -9,7 +9,7 @@ public class InquiryDTO {
 		return name;
 	}
 
-	public void setNanme(String name){
+	public void setName(String name){
 		this.name = name;
 	}
 

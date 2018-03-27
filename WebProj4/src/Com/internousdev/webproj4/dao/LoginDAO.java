@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Com.internousdev.webproj4.dto.LoginDTO;
-import Com.internousdev.webproj4.util.DBConnector;;
+import Com.internousdev.webproj4.util.DBConnector;
 
 
 public class LoginDAO {
@@ -37,7 +37,7 @@ public class LoginDAO {
 				loginDTOList.add(dto);
 			}
 
-			if(loginDTOList.size()>0){
+			if(loginDTOList.size()<=0){
 				LoginDTO dto = new LoginDTO();
 				dto.setUsername("該当なし");
 				dto.setPassword("該当なし");

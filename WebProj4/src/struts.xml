@@ -14,7 +14,7 @@
        <result name="error">helloStrutsError.jsp</result>
    </action>
 
-   <action name="WwlcomeAction" class="Com.internousdev.webproj4.action.WelcomeAction"
+   <action name="WelcomeAction" class="Com.internousdev.webproj4.action.WelcomeAction"
      method="execute">
        <result name="success">welcome.jsp</result>
    </action>
@@ -25,14 +25,14 @@
        <result name="error">loginError.jsp</result>
    </action>
 
-   <action name="InquiryAction" class="Com.internousdev.webpro.action.InquiyActionj"
+   <action name="InquiryAction" class="Com.internousdev.webproj4.action.InquiryAction"
      method="execute">
        <result name="success">inquiry.jsp</result>
    </action>
 
-   <action name="InquiryCompleteAction" class="Com.internousdev.action.InquiiryCompleteAction"
+   <action name="InquiryCompleteAction" class="Com.internousdev.webproj4.action.InquiryCompleteAction"
      method="execute">
-       <result name="success">inpuiryComplete.jsp</result>
+       <result name="success">inquiryComplete.jsp</result>
    </action>
 
  </package>
