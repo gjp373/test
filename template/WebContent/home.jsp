@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
@@ -18,7 +18,8 @@
      margin:0;
      padding:0;
      line-height:1.6;
-     letter-family:Vardana,Helvetica,sans-serif;
+     letter-spacing:1px;
+     font-family:Verdana,Helvetica,sans-serif;
      font-size:12px;
      color:#333;
      background:#fff;
@@ -31,13 +32,13 @@
  /*========ID LAYOUT========*/
    #top{
      width:780px;
-     margin:30px quto;
+     margin:30px auto;
      border:1px solid #333;
    }
 
    #header{
      width:100%;
-     heigth:500px;
+     height:80px;
      background-color:black;
    }
 
@@ -63,7 +64,7 @@
   </div>
   <div id="main">
     <div id="top">
-      <p>home</p>
+      <p>Home</p>
     </div>
     <div>
       <s:form action="HomeAction">

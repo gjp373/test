@@ -1,3 +1,0 @@
-127.0.0.1 - - [28/Mar/2018:11:15:03 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [28/Mar/2018:11:15:04 +0900] "GET /template/WEB-INF/classes/com/internousdev/template/action/HomeAction.java HTTP/1.1" 404 1165
-0:0:0:0:0:0:0:1 - - [28/Mar/2018:11:15:20 +0900] "GET /template/home.jsp HTTP/1.1" 404 1053
