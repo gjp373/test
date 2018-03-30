@@ -67,16 +67,21 @@
     <div id="top">
      <p>Login</p>
     </div>
+ 
+ 
+ 
+ <div>
 
 
-  <div>
+
   <h3>商品を購入するにはログインをお願いします。</h3>
+  <table>
   <s:form action="LoginAction">
-    <s:textfield name="loginUserID"/>
+    <s:textfield name="loginUserId"/>
     <s:password name="loginPassword"/>
     <s:submit value="ログイン"/>
   </s:form>
-
+</table>
   <br/>
 
   <div>
