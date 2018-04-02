@@ -112,7 +112,6 @@ INDEX VERSION 1.127+C:\Users\internousdev\Desktop\workspace\workspace-saitou\tes
 4156876361.index
 2289477268.index
 2470773974.index
-623595356.index
 2848875389.index
 1053649936.index
 3148193508.index
