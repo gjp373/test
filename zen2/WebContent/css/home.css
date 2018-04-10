@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+
+    font-family: arial black, Helvetica, sans-serif;
+	font-size: 15px;
+ }
+
+header{
+    float:left;
+    width:100%;
+    height:65px;
+    background-color:black;
+
+}
+
+header ul{
+    clear:both;
+    float:right;
+}
+
+header li{
+	list-style:none;
+	float:right;
+	padding-left:30px;
+    line-heigt:65px;
+    font-color:white;
+
+}
+
+.back{
+	width:100%;
+    height:550px;
+    background-image:url("../image/WE010080_02_Yellow_1080.jpg");
+    background-size:cover;
+
+}
+
+.slide-wrapper {
+width:50%;
+height:auto;
+margin:0 auto;
+
+}
+
+.slider{
+	width:50%;
+	height:auto;
+}
+
+
+
