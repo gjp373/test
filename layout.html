@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <link rel="stylesheet" type="text/css" href="layout.css">
+   <title>HOME</title>
+</head>
+    
+ <a href='<s:url action="GoHomeAction"/>'><img src="zen.png" style="width:130px; height:130px;" class="icon"></a>
+    
+  <!--header 全ページ共通-->    
+  <header id="header-wrapper">
+   <!--追加　検索機能　LOGIN後LOGOUT-->
+   <ul>
+     <li><a href='<s:url action="LoginAction"/>'>ログイン</a></li>
+     <li><a href='<s:url action="ProductListAction"/>'>商品一覧</a></li>
+     <li><a href='<s:url action="MyPageAction"/>'>マイページ</a></li>
+     <li><a href='<s:url action="cart.jsp"/>'>カート</a></li>
+   </ul>
+      
+  </header>    
+    
+<body>  
+<h1>登録フォーム(情報系)</h1>
+    
+<div class="container">
+<div class="layout">ヘッダー</div>
+<div class="box-colum clearfix">
+<div class="box-column float-left w66">
+<!-- パスワード再設定画面はここから -->
+<div class="resetpassword">
+<h2 class="heading">ログインパスワード変更</h2>
+<p>ログインIDと新ログインパスワードの両方を入力してださい。</p>
+<form action="ResetPasswordConfirmAction">
+<table class="table">
+<tbody>
+<tr>
+<th>ログインID</th>
+<td>
+<input type="text" name="loginId" placeholder="1～8文字以内半角英数字">
+</td>
+</tr>
+<tr>
+<th>新しいログインパスワード</th>
+<td>
+<input type="password" name="password" placeholder="1～16文字以内半角英数字">
+</td>
+</tr>
+<tr>
+<th>新しいログインパスワード（確認用）</th>
+<td>
+<input type="password" name="passwordConfirm" placeholder="1～16文字以内半角英数字">
+</td>
+</tr>
+</tbody>
+</table>
+<div class="text-center">
+<button type="submit" class="button">再設定</button>
+</div>
+</form> 
+    </div>
+</div>
+</div>
+    </div>
+    
+    
+<ul>
+    <li>字体　 font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;</li>
+    <li>タイトル　中央寄せ</li>
+    <li>項目名　中央寄せ</li>
+    <li>入力フォーム　左寄せ</li>
+    <li>エラー文字は赤 入力フォームの横に表示</li>
+    <li>性別などのチェックボタンはラジオタイプ</li>
+    <li>ページ遷移はボタン</li>
+    <li>ボタン　中央寄せ　ボタン背景</li>
+    <li>未入力状態では文字数の指定を表記</li>
+</ul>    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
