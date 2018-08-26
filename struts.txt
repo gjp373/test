@@ -1,3 +1,0 @@
-<action name="MyPageAction" class="com.internousdev.zen.action.MyPageAction" method="execute">
-<result name="success">myPage.jsp</result>
-</action>

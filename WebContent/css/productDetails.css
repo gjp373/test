@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+@font-face{
+	font-family: 'hannari';
+	src: url("../webfont/hannari.otf") format('opentype');
+}/*プラグインした、はんなり明朝というwebフォントです。*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	height:100%;
+	width:100%;
+}
+
+body{
+	height:auto;
+	width:100%;
+	background-image:url("../images/backhome.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#white{
+	width:80%;
+	background-color:rgba(255,255,255,0.5);
+	margin: auto;
+	height: auto;
+
+}
+
+#main{
+	min-height:100%;
+	width:80%;
+	font-family:'hannari';
+	padding-top:70px;
+	margin: auto;
+
+}
+
+#selectedProduct{
+	width:60%;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom:70px;
+}
+
+#sProductImage{
+	margin:0 auto;
+	height:80%;
+	width:50%;
+	float:left
+}
+
+#sProductImage img{
+	border:0;
+	display:block;
+	margin:0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#sProductInfo{
+	/*margin:0 auto;*/
+	height:80%;
+	width:50%;
+	float:right;
+}
+
+.clear{
+	clear:both;
+}
+
+#sProductDetail{
+	width:auto;
+	padding-top:40px;
+}
+
+#sProductDetail h2{
+	text-align:center;
+}
+
+table{
+	background-color:rgba(255,255,255,0.4);
+	border-collapse: collapse;
+	border-spacing:0;
+	border:3px solid #cbcbcb;
+	height:40%;
+	box-sizing:border-box;
+}
+
+
+table th{
+	border-left:2px solid #cbcbcb;
+	border-bottom:2px solid #cbcbcb;
+	font-size: 15px;
+	color:black;
+	text-align:center;
+	white-space:nowrap;
+	margin: 0 auto;
+}
+
+table td{
+	border-left:2px solid #cbcbcb;
+	border-bottom:2px solid #cbcbcb;
+	font-size: 15px;
+	margin: 0 auto;
+	padding:10px 40px;
+	text-align:center;
+}
+
+
+#sugestProduct{
+	width:30%;
+	float:left;
+	border:2px;
+	max-width: 100%;
+	height:10%;
+    margin: auto;
+}
+
+
+/*#sugestProduct ul{
+    margin: auto;
+}*/
+
+
+#sugestProduct li{
+	list-style-type:none;
+	text-align:center;
+}
+
+#sugestProduct h4{
+	text-align:center;
+}
+
+#insertbtn{
+	color: white;
+	background: black;
+	border-radius: 5px;
+	font-family:'hannari';
+	font-size:15px;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+}
+
+#insertbtn:active {
+	ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+#selectbtn{
+	color: white;
+	background: black;
+	border-radius: 5px;
+	font-family:'hannari';
+	font-size:15px;
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+}

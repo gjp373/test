@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;WebPro j&apos; を &apos;WebPro_j&apos; に変更します" description="リソース &apos;WebPro j&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/WebPro j" name="WebPro_j" stamp="1521077734534" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;WebPro_j&apos; を &apos;WebProj&apos; に変更します" description="リソース &apos;WebPro_j&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/WebPro_j" name="WebProj" stamp="1521078120005" updateReferences="true"/>
-</session>
